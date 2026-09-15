@@ -1,29 +1,31 @@
-`Table users {
-user_id integer [primary key]
+Table users {
+id integer [primary key]
 name varchar
 phone_number varchar [unique]
 created_at timestamp
 updated_at timestamp
-}`
+}
 
-`Table packages {
-package_id integer [primary key]
+Table packages {
+id integer [primary key]
 name varchar
 duration integer
 price integer
-}`
+created_at timestamp
+updated_at timestamp
+}
 
-`Table payments {
+Table payments {
 id integer [primary key]
 phone_number varchar
 amount integer
 status varchar
-mpesa_transaction_code varchar
+mpesa_transaction_code varchar [unique]
 created_at timestamp
 updated_at timestamp
-}`
+}
 
-`Table sessions {
+Table sessions {
 id integer [primary key]
 user_id integer [ref: > users.id]
 package_id integer [ref: > packages.id]
@@ -33,11 +35,31 @@ end_time timestamp
 status varchar
 created_at timestamp
 updated_at timestamp
-}`
+}
 
-`Table webhook_logs {
+Table webhook_logs {
 id integer [primary key]
 payment_id integer [ref: > payments.id, null]
 raw_payload jsonb
 received_at timestamp
-}`
+}
+
+Table sms_logs {
+id integer [primary key]
+session_id integer [ref: > sessions.id, null]
+phone_number varchar
+message text
+status varchar
+provider_message_id varchar
+created_at timestamp
+updated_at timestamp
+}
+
+Table access_grant_logs {
+id integer [primary key]
+session_id integer [ref: > sessions.id]
+status varchar
+provider_response text
+created_at timestamp
+updated_at timestamp
+}
