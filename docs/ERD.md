@@ -1,5 +1,5 @@
 Table users {
-id integer [primary key]
+id uuid [primary key]
 name varchar
 phone_number varchar [unique]
 created_at timestamp
@@ -7,7 +7,7 @@ updated_at timestamp
 }
 
 Table packages {
-id integer [primary key]
+id uuid [primary key]
 name varchar
 duration integer
 price integer
@@ -16,7 +16,7 @@ updated_at timestamp
 }
 
 Table payments {
-id integer [primary key]
+id uuid [primary key]
 phone_number varchar
 amount integer
 status varchar
@@ -26,10 +26,10 @@ updated_at timestamp
 }
 
 Table sessions {
-id integer [primary key]
-user_id integer [ref: > users.id]
-package_id integer [ref: > packages.id]
-payment_id integer [ref: - payments.id, unique]
+id uuid [primary key]
+user_id uuid [ref: > users.id]
+package_id uuid [ref: > packages.id]
+payment_id uuid [ref: - payments.id, unique]
 start_time timestamp
 end_time timestamp
 status varchar
@@ -38,15 +38,15 @@ updated_at timestamp
 }
 
 Table webhook_logs {
-id integer [primary key]
-payment_id integer [ref: > payments.id, null]
+id uuid [primary key]
+payment_id uuid [ref: > payments.id, null]
 raw_payload jsonb
 received_at timestamp
 }
 
 Table sms_logs {
-id integer [primary key]
-session_id integer [ref: > sessions.id, null]
+id uuid [primary key]
+session_id uuid [ref: > sessions.id, null]
 phone_number varchar
 message text
 status varchar
@@ -56,8 +56,8 @@ updated_at timestamp
 }
 
 Table access_grant_logs {
-id integer [primary key]
-session_id integer [ref: > sessions.id]
+id uuid [primary key]
+session_id uuid [ref: > sessions.id]
 status varchar
 provider_response text
 created_at timestamp
