@@ -17,6 +17,8 @@ updated_at timestamp
 
 Table payments {
 id uuid [primary key]
+user_id integer [ref: > users.id]
+package_id integer [ref: > packages.id]
 phone_number varchar
 amount integer
 status varchar
