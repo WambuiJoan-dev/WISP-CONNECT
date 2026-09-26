@@ -71,6 +71,7 @@ updated_at timestamp
 
 Table ussd_interaction_logs {
 id uuid [primary key]
+user_id uuid [ref: > users.id]
 phone_number varchar [not null]
 session_id_ussd varchar
 final_screen varchar
