@@ -38,16 +38,25 @@
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-8" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="314.5" as="sourcePoint" />
-            <mxPoint x="670" y="314.5" as="targetPoint" />
+            <mxPoint x="700" y="314.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-9" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-8" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-10" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Returning User" vertex="1">
-          <mxGeometry relative="1" x="0.05" y="-2" as="geometry">
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-14" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Returning User" vertex="1">
+          <mxGeometry relative="1" x="-0.0174" y="2" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="314.5" as="sourcePoint" />
+            <mxPoint x="50" y="314.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-12" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-11" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="New User" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
