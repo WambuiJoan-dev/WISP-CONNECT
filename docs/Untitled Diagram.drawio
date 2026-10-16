@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1414" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="Dial a USSD Code" vertex="1">
-          <mxGeometry height="40" width="120" x="320" y="160" as="geometry" />
-        </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-2" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="680" as="sourcePoint" />
@@ -28,35 +25,50 @@
             <mxPoint x="380" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-7" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="AqHhh_knQ_R-kDBAC5Bi-3" value="">
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-7" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="AqHhh_knQ_R-kDBAC5Bi-3" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
-            <mxPoint x="330" y="220" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="sourcePoint" />
             <mxPoint x="430" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-8" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="314.5" />
+            </Array>
             <mxPoint x="470" y="314.5" as="sourcePoint" />
-            <mxPoint x="700" y="314.5" as="targetPoint" />
+            <mxPoint x="740" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-9" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-8" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-14" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Returning User" vertex="1">
-          <mxGeometry relative="1" x="-0.0174" y="2" as="geometry">
+          <mxGeometry relative="1" x="-0.1929" y="2" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="-0.0002" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="314.5" />
+            </Array>
             <mxPoint x="290" y="314.5" as="sourcePoint" />
-            <mxPoint x="50" y="314.5" as="targetPoint" />
+            <mxPoint x="60" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-12" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-11" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="New User" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-12" connectable="0" parent="AqHhh_knQ_R-kDBAC5Bi-11" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontColor=light-dark(default, #000200);" value="New User" vertex="1">
+          <mxGeometry relative="1" x="-0.0002" as="geometry" />
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-15" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Welcome back + Name" vertex="1">
+          <mxGeometry height="60" width="140" x="680" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-16" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Welcome to WISP Connecf" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-20" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dial a USSD Code" vertex="1">
+          <mxGeometry height="50" width="185" x="287.5" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
