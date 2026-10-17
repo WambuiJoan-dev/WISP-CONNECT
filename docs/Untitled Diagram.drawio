@@ -6,8 +6,8 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-2" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="680" as="sourcePoint" />
-            <mxPoint x="250" y="740" as="targetPoint" />
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="80" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="START" vertex="1">
@@ -69,6 +69,12 @@
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-20" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dial a USSD Code" vertex="1">
           <mxGeometry height="50" width="185" x="287.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-21" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enter name and phone number" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-23" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hello Joan, View available packages" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
