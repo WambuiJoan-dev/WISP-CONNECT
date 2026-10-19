@@ -181,7 +181,7 @@
         <mxCell id="IkBkxZ65FPkIcS36SsND-48" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="END&amp;nbsp;" vertex="1">
           <mxGeometry height="80" width="120" x="330" y="1530" as="geometry" />
         </mxCell>
-        <mxCell id="IkBkxZ65FPkIcS36SsND-50" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;nbsp; &amp;nbsp;View available packages" vertex="1">
+        <mxCell id="IkBkxZ65FPkIcS36SsND-50" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="&amp;nbsp; &amp;nbsp;View available packages" vertex="1">
           <mxGeometry height="180" width="140" x="-200" y="570" as="geometry" />
         </mxCell>
         <mxCell id="IkBkxZ65FPkIcS36SsND-51" parent="IkBkxZ65FPkIcS36SsND-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="1hr @10/=" vertex="1">
