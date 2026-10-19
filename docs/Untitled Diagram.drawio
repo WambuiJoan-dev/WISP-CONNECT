@@ -10,7 +10,7 @@
             <mxPoint x="80" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="START" vertex="1">
+        <mxCell id="AqHhh_knQ_R-kDBAC5Bi-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="START" vertex="1">
           <mxGeometry height="80" width="120" x="320" y="10" as="geometry" />
         </mxCell>
         <mxCell id="AqHhh_knQ_R-kDBAC5Bi-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="New User or returning user ?" vertex="1">
@@ -171,11 +171,18 @@
         <mxCell id="IkBkxZ65FPkIcS36SsND-45" connectable="0" parent="IkBkxZ65FPkIcS36SsND-44" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Yes" vertex="1">
           <mxGeometry relative="1" x="0.0583" as="geometry" />
         </mxCell>
+        <mxCell id="IkBkxZ65FPkIcS36SsND-49" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IkBkxZ65FPkIcS36SsND-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IkBkxZ65FPkIcS36SsND-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IkBkxZ65FPkIcS36SsND-46" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Success Page" vertex="1">
           <mxGeometry height="60" width="120" x="-100" y="1380" as="geometry" />
         </mxCell>
-        <mxCell id="IkBkxZ65FPkIcS36SsND-48" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="END&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="120" x="120" y="1430" as="geometry" />
+        <mxCell id="IkBkxZ65FPkIcS36SsND-48" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="END&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="1530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
