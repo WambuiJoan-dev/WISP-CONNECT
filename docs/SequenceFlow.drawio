@@ -69,6 +69,13 @@
         <mxCell id="1IbhCpvTRMYkNRGXVKjd-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Checks if user exists" vertex="1">
           <mxGeometry height="30" width="230" x="290" y="210" as="geometry" />
         </mxCell>
+        <mxCell id="EKD4TWOyPcEZidDTQEUt-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=gap;" value="User doesn&#39;t exist">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="610" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
